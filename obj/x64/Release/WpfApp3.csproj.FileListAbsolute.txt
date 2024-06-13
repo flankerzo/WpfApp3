@@ -1,0 +1,33 @@
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\WpfApp3.exe.config
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\WpfApp3.exe
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\WpfApp3.pdb
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\CASDK2Net.dll
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\fskchalmp\source\repos\WpfApp3\bin\x64\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Interop.CA200SRVRLib.dll
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Interop.MMC20.dll
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Interop.WbemScripting.dll
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.csproj.ResolveComReference.cache
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\MainWindow.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\CA CS Setup.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\Color Uniformity.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\Home.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\VG Setup.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\App.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3_MarkupCompile.cache
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3_MarkupCompile.lref
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\MainWindow.baml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\CA CS Setup.baml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\Color Uniformity.baml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\Home.baml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\Views\VG Setup.baml
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.g.resources
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.Properties.Resources.resources
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.csproj.GenerateResource.cache
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.csproj.CopyComplete
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.exe
+C:\Users\fskchalmp\source\repos\WpfApp3\obj\x64\Release\WpfApp3.pdb

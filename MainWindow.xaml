@@ -1,0 +1,64 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Views="clr-namespace:WpfApp3.Views"
+        xmlns:local="clr-namespace:WpfApp3"
+        Title="MainWindow" Height="450" Width="800"
+        mc:Ignorable="d">
+
+
+    
+            <TabControl HorizontalContentAlignment="Left" >
+               <TabItem Header="Home">
+                    <Frame>
+                        <Frame.Content>
+                            <!-- Link to the UserControl -->
+                            <Views:Home Loaded="Home_Loaded" />
+                        </Frame.Content>
+                    </Frame>
+
+
+                </TabItem>
+               <TabItem Header="VG Setup">
+            <Frame>
+                <Frame.Content>
+                    <!-- Link to the UserControl -->
+                    <Views:VG_Setup/>
+                </Frame.Content>
+            </Frame>
+        </TabItem>
+               <TabItem Header="CA CS setup">
+            <Frame>
+                <Frame.Content>
+                    <!-- Link to the UserControl -->
+                    <Views:CA_CS_Setup/>
+                </Frame.Content>
+            </Frame>
+        </TabItem>
+               <TabItem Header="Color Uniformity">
+            <Frame>
+                <Frame.Content>
+                    <!-- Link to the UserControl -->
+                    <Views:Color_Uniformity/>
+                </Frame.Content>
+            </Frame>
+        </TabItem>
+               <TabItem Header="Calibration">
+                    <TextBlock Margin="8" Text="hočo" />
+               </TabItem>
+               <TabItem Header="Ano">
+                    <TextBlock Text="ano"/>
+                </TabItem>
+                <TabItem Header="Counter">
+                   
+                </TabItem>
+
+
+            </TabControl>
+    
+
+
+   
+</Window>

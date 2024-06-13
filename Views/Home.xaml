@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="WpfApp3.Views.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp3.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Snow" >
+
+        <StackPanel Orientation="Vertical" Margin="10">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid  HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="20"/>
+                        </Grid.RowDefinitions>
+                        <!-- Column headers -->
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="This" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1"  Text="Segment" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Grid.Column="2"  Text="Size" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Grid.Column="3"  Text="FSN" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <!-- First row -->
+                        <RadioButton Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        <RadioButton Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <!-- Second row -->
+                        <TextBox Grid.Row="1" Grid.Column="1"/>
+                        <TextBox Grid.Row="1" Grid.Column="2"/>
+                        <TextBox Grid.Row="1" Grid.Column="3"/>
+                        <!-- Third row -->
+                        <TextBox Grid.Row="2" Grid.Column="1"/>
+                        <TextBox Grid.Row="2" Grid.Column="2"/>
+                        <TextBox Grid.Row="2" Grid.Column="3"/>
+                    </Grid>
+                    <Grid HorizontalAlignment="Right" VerticalAlignment="Top">
+                        <CheckBox  x:Name="ItsOled" IsChecked="True" Content="Oled ?"/>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+            <!-- lower part -->
+            <StackPanel Margin="0,10,0,0">
+                <TextBlock Text="Connected Devices" VerticalAlignment="Center" HorizontalAlignment="Left">
+
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Margin="0,0,0,0" Name="ListView_Aviable_Devices">
+                <ListView x:Name="AllDevicesListView" Height="137">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                            <GridViewColumn Header="Port Number" DisplayMemberBinding="{Binding COMPort}"/>
+                            <GridViewColumn Header="VID" DisplayMemberBinding="{Binding VID}"/>
+                            <GridViewColumn Header="PID" DisplayMemberBinding="{Binding PID}"/>
+
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

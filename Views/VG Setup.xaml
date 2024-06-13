@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="WpfApp3.Views.VG_Setup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp3.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid Background="Snow" >
+        <StackPanel Orientation="Vertical" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Content="Is Oled ?" IsChecked="{x:Null}" HorizontalAlignment="Center" Margin="20,0,0,0" VerticalAlignment="Center"/>
+                <CheckBox Content="Connected" IsChecked="{x:Null}" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Ageing:" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0"/>
+                
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="70"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <!-- Row 0 -->
+                    <Button Grid.Row="0" Grid.Column="0" Content="1972" Margin="5"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="White" Margin="5"/>
+                    <Button Grid.Row="0" Grid.Column="2" Content="Cross" Margin="5"/>
+                    <Button Grid.Row="0" Grid.Column="3" Content="Black" Margin="5"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Colors" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,5,0,0"/>
+             </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60" />
+                        <ColumnDefinition Width="60" />
+                        <ColumnDefinition Width="60" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Row 0 -->
+                    <Button Grid.Row="0" Grid.Column="0" Content="Red" Margin="5"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Green" Margin="5"/>
+                    <Button Grid.Row="0" Grid.Column="2" Content="Blue" Margin="5"/>
+
+                    <!-- Row 1 -->
+                    <Button Grid.Row="1" Grid.Column="0" Content="+10" Margin="5"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="+10" Margin="5"/>
+                    <Button Grid.Row="1" Grid.Column="2" Content="+10" Margin="5"/>
+                    <!-- Row 1 -->
+                    <Button Grid.Row="2" Grid.Column="0" Content="-10" Margin="5"/>
+                    <Button Grid.Row="2" Grid.Column="1" Content="-10" Margin="5"/>
+                    <Button Grid.Row="3" Grid.Column="2" Content="-10" Margin="5"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Special" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,5,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Code 3 settings"/>
+                </StackPanel>
+               
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
